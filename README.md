@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-$ composer require xiaobinqt/aweather -vvv
+$ composer require xiaobinqt/weather -vvv
 ```
 
 ## 使用

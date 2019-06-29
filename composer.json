@@ -10,7 +10,6 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^6.3",
-        "ext-json": "*",
         "phpunit/phpunit": "^6.5",
         "mockery/mockery": "^1.2"
     },
