@@ -1,6 +1,6 @@
 {
     "name": "xiaobinqt\/aweather",
-    "description": "A Weather SDK",
+    "description": "A weather SDK",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xiaobinqt\\Weather\\": "src"
+            "Xiaobinqt\\Aweather\\": "src"
         }
     }
 }

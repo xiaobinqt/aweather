@@ -7,12 +7,12 @@
  */
 
 
-namespace Xiaobinqt\Weather;
+namespace Xiaobinqt\Aweather;
 
 
 use GuzzleHttp\Client;
-use Xiaobinqt\Weather\Exceptions\HttpException;
-use Xiaobinqt\Weather\Exceptions\InvalidArgumentException;
+use Xiaobinqt\Aweather\Exceptions\HttpException;
+use Xiaobinqt\Aweather\Exceptions\InvalidArgumentException;
 
 class Weather
 {

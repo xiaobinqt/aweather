@@ -1,6 +1,6 @@
 <?php
 $header = <<<EOF
-This file is part of the xiaobinqt/weather.
+This file is part of the xiaobinqt/aweather.
 
 (c) xiaobinqt <binnarcissus@gmail.com>
 

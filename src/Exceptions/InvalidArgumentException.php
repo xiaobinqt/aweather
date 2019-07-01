@@ -7,7 +7,7 @@
  */
 
 
-namespace Xiaobinqt\Weather\Exceptions;
+namespace Xiaobinqt\Aweather\Exceptions;
 
 
 class InvalidArgumentException extends Exception

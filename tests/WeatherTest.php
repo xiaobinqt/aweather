@@ -7,7 +7,7 @@
  */
 
 
-namespace Xiaobinqt\Weather\Tests;
+namespace Xiaobinqt\Aweather\Tests;
 
 
 use GuzzleHttp\Client;
@@ -15,16 +15,16 @@ use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
 use Mockery\Matcher\AnyArgs;
 use PHPUnit\Framework\TestCase;
-use Xiaobinqt\Weather\Exceptions\HttpException;
-use Xiaobinqt\Weather\Exceptions\InvalidArgumentException;
-use Xiaobinqt\Weather\Weather;
+use Xiaobinqt\Aweather\Exceptions\HttpException;
+use Xiaobinqt\Aweather\Exceptions\InvalidArgumentException;
+use Xiaobinqt\Aweather\Weather;
 
 class WeatherTest extends TestCase
 {
     /**
      * @description 检查 type 参数
      * @throws InvalidArgumentException
-     * @throws \Xiaobinqt\Weather\Exceptions\HttpException
+     * @throws \Xiaobinqt\Aweather\Exceptions\HttpException
      */
     public function testGetWeatherWithInvalidType()
     {
@@ -40,7 +40,7 @@ class WeatherTest extends TestCase
     /**
      * @description 检查 format 参数
      * @throws InvalidArgumentException
-     * @throws \Xiaobinqt\Weather\Exceptions\HttpException
+     * @throws \Xiaobinqt\Aweather\Exceptions\HttpException
      */
     public function testGetWeatherWithInvalidFormat()
     {
